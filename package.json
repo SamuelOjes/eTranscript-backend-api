@@ -1,0 +1,34 @@
+{
+  "name": "transcript_api_server",
+  "version": "1.0.0",
+  "description": "E-Transcript Backend API",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start:prod": "NODE_ENV=production nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/validator": "^13.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.11",
+    "slugify": "^1.4.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
